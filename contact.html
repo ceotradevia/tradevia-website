@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Us | Tradevia</title>
+<meta name="description" content="Get in touch with Tradevia to discuss your organization's AI strategy and consulting needs.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+  <div class="nav-wrap">
+    <a href="index.html" class="logo">
+      <div class="logo-mark"></div>
+      <span class="logo-text">TRADEVIA</span>
+    </a>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+<li><a href="about.html">About Us</a></li>
+<li><a href="industries.html">Industries</a></li>
+<li><a href="services.html">Services</a></li>
+<li><a href="ai-solutions.html">AI Solutions</a></li>
+<li><a href="insights.html">Insights</a></li>
+<li><a href="contact.html" class="active">Contact Us</a></li>
+
+      </ul>
+    </nav>
+    <div class="nav-cta">
+      <a href="contact.html" class="btn btn-dark">Let's Connect</a>
+    </div>
+    <button class="menu-toggle" onclick="document.querySelector('nav').classList.toggle('mobile-open')"><i class="fa-solid fa-bars"></i></button>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="container page-hero-inner">
+    <div class="breadcrumb"><a href="index.html">Home</a> / Contact Us</div>
+    <h1>Let's Connect</h1>
+    <p>Tell us about your organization's challenges &mdash; we'll get back to you within one business day.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="contact-wrap">
+      <div class="contact-info-card">
+        <h3>Get in Touch</h3>
+        <p>Whether you're exploring an AI strategy or ready to start implementation, our team is here to help.</p>
+        <div class="contact-detail">
+          <i class="fa-solid fa-envelope"></i>
+          <div><strong>Email</strong><span>info@tradevia.com</span></div>
+        </div>
+        <div class="contact-detail">
+          <i class="fa-solid fa-phone"></i>
+          <div><strong>Phone</strong><span>+91 12345 67890</span></div>
+        </div>
+        <div class="contact-detail">
+          <i class="fa-solid fa-location-dot"></i>
+          <div><strong>Office</strong><span>Bengaluru, Karnataka, India</span></div>
+        </div>
+        <div class="contact-detail">
+          <i class="fa-solid fa-globe"></i>
+          <div><strong>Website</strong><span>www.tradevia.com</span></div>
+        </div>
+        <div class="socials">
+          <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+        </div>
+      </div>
+
+      <!--
+        FORM SETUP (free, no backend required):
+        1. Create a free account at https://formspree.io
+        2. Create a new form, copy your form ID
+        3. Replace YOUR_FORM_ID below with that ID
+        This lets the form email submissions to you without any paid hosting or server.
+      -->
+      <form class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="fname">Full Name</label>
+            <input type="text" id="fname" name="name" placeholder="Your full name" required>
+          </div>
+          <div class="form-group">
+            <label for="femail">Email Address</label>
+            <input type="email" id="femail" name="email" placeholder="you@organization.com" required>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="forg">Organization</label>
+            <input type="text" id="forg" name="organization" placeholder="Organization name">
+          </div>
+          <div class="form-group">
+            <label for="findustry">Industry</label>
+            <select id="findustry" name="industry">
+              <option value="">Select an industry</option>
+              <option value="government">Government</option>
+              <option value="education">Education</option>
+              <option value="healthcare">Healthcare</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group full">
+            <label for="fmessage">Message</label>
+            <textarea id="fmessage" name="message" placeholder="Tell us about your project or challenge..." required></textarea>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary" style="width:100%; justify-content:center;">Send Message <i class="fa-solid fa-arrow-right"></i></button>
+      </form>
+    </div>
+
+    <div class="map-embed">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31097.0!2d77.5946!3d12.9716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670c9b44e6d%3A0xf8dfc3e8517e4fe0!2sBengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1690000000000"
+        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Tradevia office location map">
+      </iframe>
+    </div>
+  </div>
+</section>
+
+<section class="section" style="background:var(--paper);">
+  <div class="container">
+    <h2 class="section-title">Frequently Asked Questions</h2>
+    <div class="faq-wrap">
+      <div class="faq-item">
+        <div class="faq-q">How quickly will I hear back? <i class="fa-solid fa-plus"></i></div>
+        <div class="faq-a"><p>We respond to every inquiry within one business day.</p></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">Do you work with organizations outside India? <i class="fa-solid fa-plus"></i></div>
+        <div class="faq-a"><p>Yes &mdash; we've delivered projects with clients across three continents.</p></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">What does a first engagement typically look like? <i class="fa-solid fa-plus"></i></div>
+        <div class="faq-a"><p>Most engagements start with a short discovery workshop to understand your goals before we propose a scoped roadmap.</p></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">Can you sign an NDA before we share details? <i class="fa-solid fa-plus"></i></div>
+        <div class="faq-a"><p>Absolutely. We're happy to sign an NDA before any detailed discussion.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="logo">
+          <div class="logo-mark"></div>
+          <span class="logo-text">TRADEVIA</span>
+        </div>
+        <p>Intelligent Solutions.</p>
+        <p class="tag">Stronger Tomorrow.</p>
+      </div>
+      <div>
+        <h5>Quick Links</h5>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="industries.html">Industries</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="ai-solutions.html">AI Solutions</a></li>
+          <li><a href="insights.html">Insights</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Industries</h5>
+        <ul>
+          <li><a href="industries.html#government">Government</a></li>
+          <li><a href="industries.html#education">Education</a></li>
+          <li><a href="industries.html#healthcare">Healthcare</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Services</h5>
+        <ul>
+          <li><a href="services.html">AI Strategy</a></li>
+          <li><a href="services.html">Digital Transformation</a></li>
+          <li><a href="services.html">Data &amp; Analytics</a></li>
+          <li><a href="services.html">Process Automation</a></li>
+          <li><a href="services.html">Change Management</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Connect With Us</h5>
+        <ul class="footer-contact">
+          <li><i class="fa-solid fa-envelope"></i> info@tradevia.com</li>
+          <li><i class="fa-solid fa-phone"></i> +91 12345 67890</li>
+          <li><i class="fa-solid fa-globe"></i> www.tradevia.com</li>
+        </ul>
+        <div class="socials">
+          <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2024 Tradevia. All Rights Reserved.</span>
+      <div>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Use</a>
+      </div>
+    </div>
+  </div>
+</footer>
+<script src="main.js"></script>
+</body>
+</html>
